@@ -31,7 +31,7 @@
               "Noviat,"
               "Odoo Community Association (OCA)",
     'category': 'Accounting & Finance',
-    'version': '8.0.1.0.0',
+    'version': '1.0',
     'license': 'AGPL-3',
     'depends': [
         'account',
@@ -40,5 +40,5 @@
         'security/multi_company.xml',
         'views/account_type.xml',
     ],
-    'installable': False,
+    'installable': True,
 }

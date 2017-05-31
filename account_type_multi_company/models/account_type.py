@@ -23,11 +23,11 @@
 #
 ##############################################################################
 
-from openerp import models, fields
+from odoo import models, fields
 
 
 class AccountAccountType(models.Model):
     _inherit = 'account.account.type'
 
-    active = fields.Boolean(select=True, default=True)
+    active = fields.Boolean(index=True, default=True)
     company_id = fields.Many2one('res.company', string='Company')
